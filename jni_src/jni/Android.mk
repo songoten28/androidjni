@@ -29,10 +29,11 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := foo
-LOCAL_SRC_FILES := $(LOCAL_PATH)/lib/libfoo.so
+LOCAL_SRC_FILES := lib/x86/libfoo.so
 
 include $(PREBUILT_SHARED_LIBRARY)
 
+# SKIP to every libs
 
 include $(CLEAR_VARS)
 

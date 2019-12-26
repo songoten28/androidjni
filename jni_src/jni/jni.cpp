@@ -29,9 +29,7 @@
 
 #include <include/foo.h>
 
-JNIEXPORT jint JNICALL Java_packagename_getDevId
-		(JNIEnv* env, jclass cls)
-{
+extern "C" JNIEXPORT jint JNICALL Java_vn_vinhtn_repeater_LoadC_getDevId (JNIEnv* env, jclass cls){
     return getDevId();
 }
 

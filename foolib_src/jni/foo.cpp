@@ -27,8 +27,7 @@
 
 #include <include/foo.h>
 
-int getDevId()
-{
+int getDevId() {
     return 1;
 }
 
